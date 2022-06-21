@@ -2,7 +2,7 @@ const HDWalletProvider = require("truffle-hdwallet-provider");
 const Web3 = require("web3");
 const compiledFactory = require("./build/CampaignFactory.json");
 const provider = new HDWalletProvider(
-  "theory critic repeat fork token mango shine snap type donor long space", //meta mask key
+  "", //meta mask key
   "https://rinkeby.infura.io/v3/75998ad6032147e5929abdb5487683b3" //infura rinkeby address
 );
 
